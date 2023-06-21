@@ -723,7 +723,7 @@ footer .row {
     font-size: 1.8rem;
     line-height: 27px;
     /* identical to box height */
-    margin: 80px auto;
+    margin: 80px auto 50px;
     text-align: center;
     color: #b0b5b4;
 }
