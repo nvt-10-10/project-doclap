@@ -649,3 +649,27 @@ a {
     width: 235px;
     height: 235px;
 }
+
+.cta {
+    margin-top: 130px;
+    background-color: #def6f5;
+}
+.cta .body {
+    width: 1016px;
+    margin-left: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cta .info {
+    padding: 76px 0 88px 0;
+}
+
+.cta .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #767e7e;
+}
