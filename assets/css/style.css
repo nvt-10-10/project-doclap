@@ -24,10 +24,15 @@ a {
 }
 
 .btn {
+    display: inline-block;
     padding: 0 16px;
     line-height: 68px;
     min-width: 186px;
     background-color: var(--primary-color);
+    color: #ffff;
+    text-align: center;
+    font-size: 1.6rem;
+    border-radius: 14px;
 }
 
 .btn:hover {
@@ -40,15 +45,33 @@ a {
     margin-right: auto;
 }
 
+.heading {
+    font-weight: 700;
+    line-height: 1.33;
+    color: #0d1111;
+}
+.lv1 {
+    font-size: 6.2rem;
+}
+
+.lv2 {
+    font-size: 4.2rem;
+}
+
+.lv3 {
+    font-size: 2.2rem;
+}
+
 /* ============================= */
 .header.fixed {
     position: sticky;
-    top: 5px;
+    top: -40px;
     z-index: 1;
+    background-color: #ffff;
 }
 .header .body {
     display: flex;
-    margin-top: 52px;
+    padding: 52px 0 0 8px;
     align-items: center;
 }
 
@@ -104,4 +127,208 @@ a {
 .header .action .sing-up:hover {
     background-color: var(--primary-color);
     color: #ffff;
+}
+
+/* Hero */
+
+.hero .body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.hero .content-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 39%;
+}
+
+.hero .content-block .title {
+    font-size: 1.4rem;
+    color: #767e7e;
+}
+
+.hero .content-block .heading {
+    margin: 18px 0 46px 0;
+}
+
+.hero .content-block .desc {
+    width: 374px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    /* or 178% */
+
+    color: #9da6a5;
+}
+
+.hero .cta-group {
+    margin-top: 52px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero .cta-group .btn:hover {
+    opacity: 0.9;
+}
+
+.hero .cta-group .watch-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    background: #ffffff;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hero .media-block {
+    position: relative;
+    width: 55%;
+}
+
+.hero .media-block .img {
+    float: right;
+}
+
+.media-block .hero-summary-courses {
+    position: absolute;
+    left: 0;
+    top: 149px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+.hero-summary-courses .info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 25px;
+}
+.hero-summary-students .title,
+.hero-summary-schedules .title,
+.hero-summary-courses .title {
+    font-weight: 500;
+    font-size: rem;
+    line-height: 15px;
+
+    color: #0d1111;
+}
+.hero-summary-courses .title {
+    width: 55px;
+}
+
+.hero-summary-schedules .title {
+    text-align: center;
+}
+
+.hero-summary-courses .book-1 {
+    position: relative;
+    width: 36px;
+    height: 40px;
+    border-radius: 3px;
+    background: #ff8282;
+}
+
+.hero-summary-courses .book-2 {
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.media-block .hero-summary-schedules {
+    position: absolute;
+    width: 124px;
+    top: 453px;
+    background: #ffffff;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero-summary-schedules .info {
+    padding: 16px 25px 25px 23px;
+}
+
+.hero-summary-schedules .schedules {
+    margin-top: 16px;
+}
+
+.hero-summary-schedules .schedule {
+    position: relative;
+    width: 74px;
+    height: 6px;
+    margin-bottom: 11px;
+    background: #edf1f5;
+    border-radius: 3px;
+}
+.hero-summary-schedules .schedule:last-child {
+    width: 26px;
+    margin: 16px auto 0 auto;
+}
+.hero-summary-schedules .schedule-1,
+.hero-summary-schedules .schedule-2,
+.hero-summary-schedules .schedule-3 {
+    position: absolute;
+    width: 52%;
+    height: 6px;
+    left: 0;
+    top: 0;
+    background: #fb9899;
+    border-radius: 3px;
+}
+
+.hero-summary-schedules .schedule-2 {
+    width: 69%;
+}
+.hero-summary-schedules .schedule-3 {
+    width: 45%;
+}
+
+.hero .hero-summary-students {
+    position: absolute;
+    background: #ffff;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    top: 500px;
+    right: 45px;
+}
+
+.hero-summary-students .info {
+    padding: 17px 35px;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero-summary-students .students {
+    display: flex;
+    margin-top: 8px;
+}
+.hero-summary-students .student {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    margin-left: -10px;
+    object-fit: cover;
+}
+
+.hero-summary-students .student:first-child {
+    margin-left: 0;
+}
+
+.hero-summary-students .student:last-child {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #ffffff;
+    justify-content: center;
+    background-color: #1ebfc1;
 }
