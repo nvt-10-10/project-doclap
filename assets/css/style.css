@@ -533,3 +533,119 @@ a {
 
     color: #767e7e;
 }
+
+.Testimonial-eLearning {
+    margin-top: 264px;
+}
+
+.Testimonial-eLearning .main-content {
+    display: flex;
+}
+
+.Testimonial-left .icon {
+    width: 36px;
+    height: 29px;
+    margin-top: 37px;
+}
+
+.Testimonial-left blockquote {
+    margin: 27px 0 33px 0;
+    width: 36%;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    /* or 150% */
+    color: #5d6564;
+}
+
+.Testimonial-left .author {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
+
+    color: #070707;
+}
+
+.Testimonial-left .author::before {
+    content: "";
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.Testimonial-left .author .occupation {
+    color: #767e7e;
+}
+
+.Testimonial-left .controls {
+    display: flex;
+    gap: 30px;
+    margin-top: 52px;
+    margin-bottom: 37px;
+}
+
+.Testimonial-left .controls .control-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.Testimonial-left .controls .control-btn:hover {
+    opacity: 0.9;
+}
+.Testimonial-right {
+    position: relative;
+}
+.Testimonial-right .thumb {
+    position: absolute;
+
+    border-radius: 50%;
+}
+
+.Testimonial-eLearning .thumb:nth-child(1) {
+    width: 92px;
+    height: 92px;
+    top: 0;
+    right: 443px;
+}
+
+.Testimonial-eLearning .thumb:nth-child(2) {
+    width: 110px;
+    height: 110px;
+    top: 19px;
+    right: 0;
+}
+
+.Testimonial-eLearning .thumb:nth-child(3) {
+    height: 78px;
+    width: 78px;
+    bottom: 29px;
+    right: 10px;
+}
+
+.Testimonial-eLearning .thumb:nth-child(4) {
+    height: 78px;
+    width: 78px;
+    bottom: 0px;
+    right: 389px;
+}
+
+.Testimonial-eLearning .thumb:nth-child(5) {
+    height: 78px;
+    width: 78px;
+    bottom: 145px;
+    right: 601px;
+}
+
+.Testimonial-eLearning .thumb:nth-child(6) {
+    bottom: 139px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+}
