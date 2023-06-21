@@ -503,3 +503,33 @@ a {
 
     background-color: var(--primary-color);
 }
+
+.countdown-eLearning {
+    width: 862px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countdown-eLearning .countdowns {
+    display: flex;
+    gap: 200px;
+}
+
+.countdowns .title {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 93px;
+
+    text-align: center;
+}
+
+.countdowns .desc {
+    margin-top: 11px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #767e7e;
+}
