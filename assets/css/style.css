@@ -15,3 +15,93 @@ body {
     font-family: "poppins", "sans-serif";
 }
 /* Common */
+:root {
+    --primary-color: #1ebfc1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 0 16px;
+    line-height: 68px;
+    min-width: 186px;
+    background-color: var(--primary-color);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ============================= */
+.header.fixed {
+    position: sticky;
+    top: 5px;
+    z-index: 1;
+}
+.header .body {
+    display: flex;
+    margin-top: 52px;
+    align-items: center;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li a {
+    padding: 8px 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #2f3a3b;
+}
+
+.nav a:hover {
+    font-weight: 600;
+    text-shadow: 1px 0 0 currentColor;
+    color: #2f3a3b;
+}
+
+.header .action .sing-in {
+    padding: 8px 12px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #494949;
+}
+
+.header .action .sing-in:hover {
+    text-shadow: 1px 0 0 var(--primary-color);
+}
+
+.header .action .btn {
+    display: inline-block;
+    background-color: #ffff;
+    min-width: 108px;
+
+    line-height: 48px;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+}
+
+.header .action .sing-up {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.header .action .sing-up:hover {
+    background-color: var(--primary-color);
+    color: #ffff;
+}
