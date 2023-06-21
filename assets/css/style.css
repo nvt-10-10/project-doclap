@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --font-heading: Sen, sans-serif;
+    --primary-color: #ffb900;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6 rem;
+    font-family: "poppins", "sans-serif";
+}
+/* Common */
