@@ -587,9 +587,13 @@ a {
 }
 
 .Testimonial-left .controls .control-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 50px;
     height: 50px;
     border-radius: 50%;
+
     color: #ffffff;
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -672,4 +676,54 @@ a {
     /* identical to box height */
 
     color: #767e7e;
+}
+
+.cta .btn:hover {
+    opacity: 0.9;
+}
+
+footer .row {
+    margin-top: 131px;
+    display: flex;
+    gap: 144px;
+}
+
+.row .column .logo {
+    width: 127px;
+    height: 37px;
+    object-fit: cover;
+}
+
+.row .column .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    /* identical to box height */
+
+    color: #2e2e2e;
+}
+
+.row .column ul {
+    margin-top: 25px;
+}
+
+.column li {
+    margin-top: 20px;
+}
+
+.column li a {
+    display: block;
+    font-size: 1.6rem;
+    /* identical to box height */
+
+    color: #535353;
+}
+
+.copyright {
+    display: block;
+    font-size: 1.8rem;
+    line-height: 27px;
+    /* identical to box height */
+    margin: 80px auto;
+    text-align: center;
+    color: #b0b5b4;
 }
