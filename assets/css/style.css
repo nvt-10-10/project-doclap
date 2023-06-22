@@ -685,7 +685,7 @@ a {
 footer .row {
     margin-top: 131px;
     display: flex;
-    gap: 144px;
+    gap: 120px;
 }
 
 .row .column .logo {
@@ -713,9 +713,22 @@ footer .row {
 .column li a {
     display: block;
     font-size: 1.6rem;
+    line-height: 24px;
     /* identical to box height */
 
     color: #535353;
+}
+
+.column li .icon {
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    margin-right: 9px;
+}
+
+.row .column :last-child li a {
+    display: flex;
+    align-items: center;
 }
 
 .copyright {
